@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "target": "ESNext",        // Targets the latest ECMAScript version
+      "module": "CommonJS",      // Use CommonJS module system
+      "moduleResolution": "node",// Use Node.js module resolution
+      "outDir": "./dist",        // Output directory for compiled JavaScript
+      "sourceMap": true,         // Generate source maps for debugging
+      "strict": true,            // Enable all strict type-checking options
+      "esModuleInterop": true,   // Enables compatibility with CommonJS modules
+      "skipLibCheck": true,      // Skip type checking of declaration files
+      "forceConsistentCasingInFileNames": true // Ensure consistent file naming
+    },
+    "exclude": [
+      "node_modules"              // Exclude node_modules directory from compilation
+    ]
+  }
+  
